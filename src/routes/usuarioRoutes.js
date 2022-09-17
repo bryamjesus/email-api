@@ -3,7 +3,7 @@ const router = express.Router();
 const controlador = require('../controllers/usuarioController');
 
 router.post('/', (req, res) => {
-  const resp = controlador.regitrar(req.body);
+  const resp = controlador.registrar(req.body);
   res.json(resp);
 });
 
