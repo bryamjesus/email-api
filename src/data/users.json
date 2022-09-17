@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nombres": "Juan Medina",
+      "email": "jmedina@gmail.com",
+      "clave": "123456",
+      "token": null,
+      "estado": "A"
+    },
+    {
+      "id": 2,
+      "nombres": "Silvia Linares",
+      "email": "slinares@gmail.com",
+      "clave": "123456",
+      "token": null,
+      "estado": "P"
+    }
+  ]
+}
