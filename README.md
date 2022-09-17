@@ -1,1 +1,1 @@
-# email-api
+# Email
