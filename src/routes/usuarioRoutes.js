@@ -2,8 +2,8 @@ const express = require('express');
 const router = express.Router();
 const controlador = require('../controllers/usuarioController');
 
-router.post('/', (req, res) => {
-  const resp = controlador.registrar(req.body);
+router.post('/', async (req, res) => {
+  const resp = await controlador.registrar(req.body);
   res.json(resp);
 });
 

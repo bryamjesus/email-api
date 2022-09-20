@@ -1,5 +1,5 @@
 {
-  "nextId": 3,
+  "nextId": 33,
   "users": [
     {
       "id": 1,
@@ -13,6 +13,242 @@
       "id": 2,
       "nombres": "Silvia Linares",
       "email": "slinares@gmail.com",
+      "clave": "123456",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 3,
+      "email": "bryamtalledo@gmail.com",
+      "clave": "admin",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 4,
+      "email": "bryamtalledo@gmail.com",
+      "clave": "admin",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 5,
+      "email": "bryamtalledo@gmail.com",
+      "clave": "admin",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 6,
+      "email": "bryamtalledo@gmail.com",
+      "clave": "admin",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 7,
+      "nombres": "braaayam taalledo",
+      "email": "bryamtalledo@gmail.com",
+      "clave": "admin",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 8,
+      "nombres": "braaayam taalledo",
+      "email": "bryamtalledo@gmail.com",
+      "clave": "admin",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 9,
+      "nombres": "braaayam taalledo",
+      "email": "bryamtalledo@gmail.com",
+      "clave": "admin",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 10,
+      "nombres": "braaayam taalledo",
+      "email": "bryamtalledo@gmail.com",
+      "clave": "admin",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 11,
+      "nombres": "braaayam taalaledo",
+      "email": "bryamtalledo@gmail.com",
+      "clave": "admin",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 12,
+      "nombres": "braaayam taalaledo",
+      "email": "bryamtalledo@gmail.com",
+      "clave": "admin",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 13,
+      "nombres": "braaayam taalaledo",
+      "email": "bryamtalledo@gmail.com",
+      "clave": "admin",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 14,
+      "nombres": "braaayam taalaledo",
+      "email": "bryamtalledo@gmail.com",
+      "clave": "admin",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 15,
+      "nombres": "braaayam taalaledo",
+      "email": "bryamtalledo@gmail.com",
+      "clave": "admin",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 16,
+      "nombres": "braaayam taalaledo",
+      "email": "bryamtalledo@gmail.com",
+      "clave": "admin",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 17,
+      "nombres": "braaayam taalaledo",
+      "email": "bryamtalledo@gmail.com",
+      "clave": "admin",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 18,
+      "nombres": "braaayam taalaledo",
+      "email": "bryamtalledo@gmail.com",
+      "clave": "admin",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 19,
+      "nombres": "braaayam taalaledo",
+      "email": "bryamtalledo@gmail.com",
+      "clave": "admin",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 20,
+      "nombres": "braaayam taalaledo",
+      "email": "bryamtalledo@gmail.com",
+      "clave": "admin",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 21,
+      "nombres": "braaayam taalaledo",
+      "email": "bryamtalledo@gmail.com",
+      "clave": "admin",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 22,
+      "nombres": "braaayam taalaledo",
+      "email": "bryamtalledo@gmail.com",
+      "clave": "admin",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 23,
+      "nombres": "braaayam taalaledo",
+      "email": "bryamtalledo@gmail.com",
+      "clave": "admin",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 24,
+      "nombres": "braaayam taalaledo",
+      "email": "bryamtalledo@gmail.com",
+      "clave": "admin",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 25,
+      "nombres": "braaayam taalaledo",
+      "email": "bryamtalledo@gmail.com",
+      "clave": "admin",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 26,
+      "nombres": "braaayam taalaledo",
+      "email": "bryamtalledo@gmail.com",
+      "clave": "admin",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 27,
+      "nombres": "braaayam taalaledo",
+      "email": "bryamtalledo@gmail.com",
+      "clave": "admin",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 28,
+      "nombres": "braaayam taalaledo",
+      "email": "bryamtalledo@gmail.com",
+      "clave": "admin",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 29,
+      "nombres": "braaayam taalaledo",
+      "email": "bryamtalledo@gmail.com",
+      "clave": "admin",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 30,
+      "nombres": "Felipe García",
+      "email": "fgarcia@mail.com",
+      "clave": "123456",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 31,
+      "nombres": "Felipe García",
+      "email": "fgarcia@mail.com",
+      "clave": "123456",
+      "token": null,
+      "estado": "P"
+    },
+    {
+      "id": 32,
+      "nombres": "Felipe García",
+      "email": "fgarcia@mail.com",
       "clave": "123456",
       "token": null,
       "estado": "P"
