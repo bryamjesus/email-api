@@ -7,6 +7,12 @@ router.post('/', async (req, res) => {
   res.json(resp);
 });
 
+router.get('/activar/:token', (req, res)=>{
+	const { token } = req.params;
+	const resp = controlador.activar(token);
+	res.json(resp);
+});
+
 router.get('/', (req, res) => {
   const resp = controlador.listar();
   res.json(resp);

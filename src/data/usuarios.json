@@ -1,6 +1,6 @@
 {
   "nextId": 39,
-  "users": [
+  "usuarios": [
     {
       "id": 1,
       "nombres": "Juan Medina",
@@ -23,7 +23,7 @@
       "email": "bryam@mail.com",
       "clave": "123456",
       "token": "ISzTyhq5ezNNZHRE",
-      "estado": "P"
+      "estado": "A"
     }
   ]
 }

@@ -1,21 +1,23 @@
 "use strict";
-let { nextId, users } = require('../data/users.json');
+// let { nextId, users } = require('../data/users.json');
+const { leerJson } = require('../helper/util');
 const fs = require('fs');
 const nodemailer = require("nodemailer");
 const randtoken = require('rand-token');
-const URL_SERVER_API = 'http://localhost:3001';
+const URL_SERVER_API = 'http://localhost:3000';
 
 
 
 const registrar = async ({ nombres, email, clave }) => {
+  const { nextId, users } = leerJson('users')
   const token = randtoken.generate(16);
 
   const newUser = {
     id: nextId,
-    nombres, 
-    email, 
+    nombres,
+    email,
     clave,
-    token: null, 
+    token,
     estado: 'P'
   }
 
@@ -47,7 +49,7 @@ const registrar = async ({ nombres, email, clave }) => {
     html: `<p>Hola ${nombres}<p>
            <p>Bienvenido a nuestra plataforma.
               Para activar tu usuario, haz clic en el siguiente enlace:</p>
-           <p><a href="${URL_SERVER_API}/usuario/activar/${token}">Activar cuenta</a></p>`
+           <p><a href="${URL_SERVER_API}/usuarios/activar/${token}">Activar cuenta</a></p>`
   }
 
   console.log(mailOptions);
@@ -62,21 +64,48 @@ const registrar = async ({ nombres, email, clave }) => {
   return newUser
 }
 
-const activar = () => {
+const activar = (token) => {
+  const { nextId, users } = leerJson('users')
+  let found = false;
+  const nLista = users.map(elem => {
+    if (elem.token == token && elem.estado == 'P') {
+      found = true;
+      elem.estado = 'A';
+    }
+    return elem;
+  })
+
+  if (found) {
+    console.log('nLista => ', nLista);
+    const nData = {
+      nextId,
+      usuarios: nLista
+    }
+    fs.writeFileSync(
+      './src/data/usuarios.json',
+      JSON.stringify(nData, null, 2)
+    );
+    return 'Ok';
+  } else {
+    return 'Token inválido';
+  }
 
 }
 
 const listar = () => {
+  const { users } = leerJson('users')
   return users;
 };
 
 const buscarPorId = (id) => {
+  const { users } = leerJson('users')
   const usuario = users.find(elem => elem.id == id);
   return usuario;
 };
 
 module.exports = {
   registrar,
+  activar,
   listar,
   buscarPorId
 };
