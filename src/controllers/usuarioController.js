@@ -82,7 +82,7 @@ const activar = (token) => {
       usuarios: nLista
     }
     fs.writeFileSync(
-      './src/data/usuarios.json',
+      './src/data/users.json',
       JSON.stringify(nData, null, 2)
     );
     return 'Ok';
