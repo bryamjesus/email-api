@@ -1,5 +1,5 @@
 {
-  "nextId": 39,
+  "nextId": 6,
   "users": [
     {
       "id": 1,
@@ -18,11 +18,27 @@
       "estado": "P"
     },
     {
-      "id": 38,
+      "id": 3,
       "nombres": "Bryam talledo",
       "email": "bryam@mail.com",
       "clave": "123456",
       "token": "ISzTyhq5ezNNZHRE",
+      "estado": "P"
+    },
+    {
+      "id": 4,
+      "nombres": "Juan Pereira",
+      "email": "bryam@mail.com",
+      "clave": "123456",
+      "token": "sSPt4HogIibSGjD6",
+      "estado": "P"
+    },
+    {
+      "id": 5,
+      "nombres": "Luan Pereira",
+      "email": "bryam@mail.com",
+      "clave": "123456",
+      "token": "Px1LRD3Nv11Nz6Bb",
       "estado": "P"
     }
   ]
